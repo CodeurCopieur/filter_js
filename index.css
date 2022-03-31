@@ -16,7 +16,7 @@ body {
   align-items: center;
 }
 
-.btns, .boxes {
+.buttons, .objects {
   display: flex;
   flex-wrap: wrap;
 }
@@ -31,7 +31,7 @@ body {
   cursor: pointer;
 }
 
-.btns > li:not(:last-child) {
+.buttons > li:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -53,6 +53,6 @@ body {
   display: block;
 }
 
-.boxes {
+.objects {
   max-width: 60%;
 }
