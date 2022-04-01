@@ -19,6 +19,7 @@ body {
 .buttons, .objects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -44,16 +45,21 @@ body {
 .box {
   background-color: #0162b1;
   color: #fff;
-  width: 125px;
-  line-height: 125px;
+  width: 150px;
+  line-height: 150px;
   text-align: center;
   margin: 10px;
+  display: none;
+  transform: scale(.8);
+  transition: all .5s ease-in;
 }
 
 .show {
   display: block;
+  transform: scale(1);
 }
 
 .objects {
-  max-width: 60%;
+  max-width: 80%;
+  transition: all .5s ease-in;
 }
