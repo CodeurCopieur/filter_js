@@ -35,7 +35,6 @@ function addClass(element, name) {
   arr1 = element.className.split(' ');
   // on affecte a arr2 = name
   arr2 = name.split(' ');
-  console.log(arr1, arr2);
   for (index = 0; index < arr2.length; index++) {
     //const element = arr2[index];
     if(arr1.indexOf(arr2[index] == -1)) {
@@ -51,7 +50,6 @@ function removeClass(element, name) {
   arr1 = element.className.split(' ');
   // on affecte a arr2 = name
   arr2 = name.split(' ');
-  //console.log(arr1, arr2);
   for (index = 0; index < arr2.length; index++) {
     // const element = arr2[index];
     while (arr1.indexOf(arr2[index]) > -1 ) {
